@@ -1,0 +1,200 @@
+/* CustomerLabs Footer Styles */
+/* Last Updated: 2025-10-28 */
+
+/* ============================================
+   FOOTER CONTAINER
+   ============================================ */
+
+.customerlabs-footer {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 60px 0 0;
+  margin-top: 80px;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============================================
+   FOOTER CONTENT (COLUMNS)
+   ============================================ */
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #374151;
+}
+
+.footer-column {
+  /* Column styling */
+}
+
+.footer-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* ============================================
+   FOOTER BOTTOM
+   ============================================ */
+
+.footer-bottom {
+  padding: 24px 0;
+}
+
+.footer-bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-copyright {
+  color: #9ca3af;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* ============================================
+   LEGAL LINKS
+   ============================================ */
+
+.footer-legal {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-legal a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-legal a:hover {
+  color: #ffffff;
+}
+
+/* ============================================
+   SOCIAL LINKS
+   ============================================ */
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social a {
+  color: #9ca3af;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social a:hover {
+  color: #ffffff;
+}
+
+/* ============================================
+   TABLET RESPONSIVE (< 1024px)
+   ============================================ */
+
+@media (max-width: 1024px) {
+  
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 30px;
+  }
+
+}
+
+/* ============================================
+   MOBILE RESPONSIVE (< 640px)
+   ============================================ */
+
+@media (max-width: 640px) {
+  
+  .customerlabs-footer {
+    padding: 40px 0 0;
+    margin-top: 60px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-social {
+    width: 100%;
+  }
+
+}
+
+/* ============================================
+   LARGE DESKTOP (> 1280px)
+   ============================================ */
+
+@media (min-width: 1280px) {
+  
+  .footer-container {
+    max-width: 1440px;
+  }
+
+  .footer-content {
+    gap: 60px;
+  }
+
+}
+

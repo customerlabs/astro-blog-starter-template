@@ -1,0 +1,22 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import EcommerceLanding from '../components/react/EcommerceLanding';
+import '../styles/navigation.css';
+import '../styles/footer.css';
+import '../styles/landing.css';
+import '../styles/fonts.css';
+
+const title = "First-party data Drives Your Ecommerce Growth | CustomerLabs";
+const description = "Drive ecommerce growth with CustomerLabs First-party data CDP. Maximize ad performance, scale retargeting campaigns, and achieve 20% incremental revenue boost.";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+	<body>
+		<EcommerceLanding client:load />
+	</body>
+</html>
+
