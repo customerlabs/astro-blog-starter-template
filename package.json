@@ -33,7 +33,7 @@
     "build": "astro build && echo '_worker.js' > dist/.assetsignore",
     "cf-typegen": "wrangler types",
     "check": "astro build && tsc && wrangler deploy --dry-run",
-    "deploy": "wrangler pages deploy dist",
+    "deploy": "echo 'Deployment handled automatically by Cloudflare Pages'",
     "dev": "astro dev",
     "preview": "astro build && wrangler dev"
   },
